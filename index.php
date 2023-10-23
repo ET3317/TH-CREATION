@@ -166,7 +166,7 @@
             </div>
             <ul class="works-grid works-grid-masonry works-grid-3 works-hover-d" id="works-grid">
                 <li class="work-item illustration">
-                    <a href="project-pages/gorilla.php" target="_blank">
+                    <a href="gorilla.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/th-proj6.jpg" alt="Portfolio Item"/>
                         </div>
@@ -177,7 +177,7 @@
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="project-pages/aromes.php" target="_blank">
+                    <a href="aromes.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/ar1.jpg" alt="Portfolio Item"/>
                         </div>
@@ -188,7 +188,7 @@
                     </a>
                 </li>
                 <li class="work-item packaging">
-                    <a href="project-pages/wave.php" target="_blank">
+                    <a href="wave.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/wave1.jpg" alt="Portfolio Item"/>
                         </div>
@@ -199,7 +199,7 @@
                     </a>
                 </li>
                 <li class="work-item logo">
-                    <a href="project-pages/logo-tdf.php" target="_blank">
+                    <a href="logo-tdf.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/tr-fr3.jpg" alt="Portfolio Item"/>
                         </div>
@@ -210,7 +210,7 @@
                     </a>
                 </li>
                 <li class="work-item packaging">
-                    <a href="project-pages/hcm-oyster.php" target="_blank">
+                    <a href="hcm-oyster.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/hcm-pack2.jpg" alt="Portfolio Item"/>
                         </div>
@@ -221,7 +221,7 @@
                     </a>
                 </li>
                 <li class="work-item illustration">
-                    <a href="project-pages/palm.php" target="_blank">
+                    <a href="palm.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/palm1.jpg" alt="Portfolio Item"/>
                         </div>
@@ -232,7 +232,7 @@
                     </a
                     ></li>
                 <li class="work-item packaging">
-                    <a href="project-pages/isles-de-re.php" target="_blank">
+                    <a href="isles-de-re.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/th-proj5.jpg" alt="Portfolio Item"/>
                         </div>
@@ -243,7 +243,7 @@
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="project-pages/kalae.php" target="_blank">
+                    <a href="kalae.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/th-proj8.jpg" alt="Portfolio Item"/>
                         </div>
@@ -254,7 +254,7 @@
                     </a>
                 </li>
                 <li class="work-item logo">
-                    <a href="project-pages/oeuvres-arbres.php" target="_blank">
+                    <a href="oeuvres-arbres.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/th-proj2.jpeg" alt="Portfolio Item"/>
                         </div>
@@ -265,7 +265,7 @@
                     </a>
                 </li>
                 <li class="work-item packaging">
-                    <a href="project-pages/gardrat.php" target="_blank">
+                    <a href="gardrat.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/th-proj7.jpg" alt="Portfolio Item"/>
                         </div>
@@ -276,7 +276,7 @@
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="project-pages/barber.php" target="_blank">
+                    <a href="barber.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/th-proj11.jpg" alt="Portfolio Item"/>
                         </div>
@@ -287,7 +287,7 @@
                     </a>
                 </li>
                 <li class="work-item flyer">
-                    <a href="project-pages/hcm-bag.php" target="_blank">
+                    <a href="hcm-bag.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/hcm2.jpg" alt="Portfolio Item"/>
                         </div>
@@ -298,7 +298,7 @@
                     </a>
                 </li>
                 <li class="work-item packaging">
-                    <a href="project-pages/ocotopus-stout.php" target="_blank">
+                    <a href="ocotopus-stout.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/th-proj10.jpg" alt="Portfolio Item"/>
                         </div>
@@ -309,7 +309,7 @@
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="project-pages/bb-snack.php" target="_blank">
+                    <a href="bb-snack.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/bb1.jpg" alt="Portfolio Item"/>
                         </div>
@@ -320,7 +320,7 @@
                     </a>
                 </li>
                 <li class="work-item logo">
-                    <a href="project-pages/nordik.php" target="_blank">
+                    <a href="nordik.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/nord1.jpg" alt="Portfolio Item"/>
                         </div>
@@ -331,7 +331,7 @@
                     </a>
                 </li>
                 <li class="work-item flyer">
-                    <a href="project-pages/hcm-sign.php" target="_blank">
+                    <a href="hcm-sign.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/hcm-sign.jpg" alt="Portfolio Item"/>
                         </div>
@@ -342,7 +342,7 @@
                     </a>
                 </li>
                 <li class="work-item illustration">
-                    <a href="project-pages/butterfly.php" target="_blank">
+                    <a href="butterfly.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/but-fly.jpg" alt="Portfolio Item"/>
                         </div>
@@ -353,7 +353,7 @@
                     </a>
                 </li>
                 <li class="work-item logo">
-                    <a href="project-pages/injenius.php" target="_blank">
+                    <a href="injenius.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/injenius1.jpg" alt="Portfolio Item"/>
                         </div>
@@ -364,7 +364,7 @@
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="project-pages/etunia.php" target="_blank">
+                    <a href="etunia.php" target="_blank">
                         <div class="work-image">
                             <img src="assets/img/thc/jard1.jpg" alt="Portfolio Item"/>
                         </div>
