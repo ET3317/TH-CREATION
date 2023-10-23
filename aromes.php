@@ -2,9 +2,9 @@
 include "_includes/navbar.html";
 ?>
         <div class="th-container-mobile">
-            <img src="../assets/img/thc/ar1.jpg" alt="...">
-            <img src="../assets/img/thc/ar2.jpg" alt="...">
-            <img src="../assets/img/thc/ar3.jpg" alt="...">
+            <img src="assets/img/thc/ar1.jpg" alt="...">
+            <img src="assets/img/thc/ar2.jpg" alt="...">
+            <img src="assets/img/thc/ar3.jpg" alt="...">
         </div>
         <div class="th-container-project">
             <div id="carouselExampleIndicators" class="carousel slide w-50">
@@ -15,13 +15,13 @@ include "_includes/navbar.html";
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../assets/img/thc/ar1.jpg" class="d-block" alt="...">
+                        <img src="assets/img/thc/ar1.jpg" class="d-block" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/thc/ar2.jpg" class="d-block" alt="...">
+                        <img src="assets/img/thc/ar2.jpg" class="d-block" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../assets/img/thc/ar3.jpg" class="d-block" alt="...">
+                        <img src="assets/img/thc/ar3.jpg" class="d-block" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
