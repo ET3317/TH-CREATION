@@ -1,26 +1,74 @@
-<?php
-include ('_includes/navbar.html');
-?>
-
-<!---WELCOME----->
-<section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/img/thc/th-vinyle.jpeg">
-    <div class="th-container-title">
-        <div class="th-title">
-            <div class="font-alt mb-30 th-title-size-1">Welcome to</div>
-            <div class="font-alt mb-40 th-title-size-2">TH Creation</div>
-        </div>
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TH-CREATION</title>
+    <!--Favicons-->
+    <link rel="icon" type="image/png" href="assets/images/thc/th-favicon.png">
+    <meta name="msapplication-TileImage" content="assets/images/thc/th-favicon.png">
+    <!--Stylesheets-->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet-->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+<main>
+    <div class="page-loader">
+        <div class="loader">Loading...</div>
     </div>
-</section>
-<!---END OF WELCOME----->
-
-<!--SERVICES-->
-<div class="main">
+    <!---NAVBAR--->
+    <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#">Thibault Heutre Creation</a>
+            </div>
+            <div class="collapse navbar-collapse" id="custom-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#totop">Accueil</a></li>
+                    <li><a class="section-scroll" href="#services">Services</a></li>
+                    <li><a class="section-scroll" href="#works">Projets</a></li>
+                    <!--              <li><a class="section-scroll" href="#pricing">Prices</a></li>-->
+                    <li><a class="section-scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!---END OF navbar----->
+    <!---WELCOME----->
+    <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/img/thc/th-vinyle.jpeg">
+        <div class="titan-caption">
+            <div class="caption-content">
+                <div class="font-alt mb-30 titan-title-size-1">Welcome to</div>
+                <div class="font-alt mb-40 titan-title-size-4">TH Creation</div><!--<a class="section-scroll btn btn-border-w btn-round" href="#">Learn More</a>-->
+            </div>
+        </div>
+    </section>
+    <!---END OF WELCOME----->
+    <!--SERVICES-->
+    <!--      <div class="main">-->
     <section class="module" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3">
                     <h2 class="module-title font-alt">Mes Services</h2>
-                    <div class="module-subtitle font-serif">Designer / Graphiste basé sur Royan j'offre un service créatif pluridisciplinaire en Charente Maritime et Nouvelle Aquitaine.<br>Disponible et réactif, j'apporte des réponses adaptées à vos problématiques visuelles que ce soit pour la création graphique de l’identité de votre entreprise ou encore de la décoration pour votre intérieur.</div>
+                    <div class="module-subtitle font-serif">Designer / Graphiste basé sur Royan j'offre un service créatif pluridisciplinaire en Charente Maritime et Nouvelle Aquitaine.<br>Disponible et réactif, j'apporte des réponses adaptées à vos problématiques visuelles que ce soit pour la création graphique de l’identité de votre entreprise ou encore de la décoration pour votre intérieur.
+
+                        .</div>
                 </div>
             </div>
             <div class="row multi-columns-row">
@@ -84,7 +132,6 @@ include ('_includes/navbar.html');
         </div>
     </section>
     <!--END OF SERVICES-->
-
     <!----projects title  ---->
     <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/img/thc/th-pen.jpg">
         <div class="testimonials-slider pt-140 pb-140">
@@ -102,8 +149,7 @@ include ('_includes/navbar.html');
         </div>
     </section>
     <!----END OF projects title  ---->
-
-    <!-----START PROJECTS----->
+    <!-----PROJECT----->
     <section class="module" id="works">
         <div class="container">
             <div class="row">
@@ -120,9 +166,9 @@ include ('_includes/navbar.html');
             </div>
             <ul class="works-grid works-grid-masonry works-grid-3 works-hover-d" id="works-grid">
                 <li class="work-item illustration">
-                    <a href="gorilla.php" target="_blank" title="allez à la page du projet Gorilla">
+                    <a href="project-pages/gorilla.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/th-proj6.jpg" alt="Réalisation graphique 'Gorille'"/>
+                            <img src="assets/img/thc/th-proj6.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Gorilla</h3>
@@ -131,9 +177,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="aromes.php" target="_blank" title="allez à la page du projet Arômes">
+                    <a href="project-pages/aromes.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/ar1.jpg" alt="Réalisation graphique Arômes"/>
+                            <img src="assets/img/thc/ar1.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Arômes</h3>
@@ -142,9 +188,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item packaging">
-                    <a href="wave.php" target="_blank" title="allez à la page du projet Wave">
+                    <a href="project-pages/wave.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/wave1.jpg" alt="Réalisation graphique Wave"/>
+                            <img src="assets/img/thc/wave1.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Wave</h3>
@@ -153,9 +199,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item logo">
-                    <a href="logo-tdf.php" target="_blank" title="allez à la page du projet logo Tour de France">
+                    <a href="project-pages/logo-tdf.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/tr-fr3.jpg" alt="Réalisation graphique Logo Tour de France"/>
+                            <img src="assets/img/thc/tr-fr3.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Tour de France</h3>
@@ -164,9 +210,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item packaging">
-                    <a href="hcm-oyster.php" target="_blank" title="allez à la page du projet HCM">
+                    <a href="project-pages/hcm-oyster.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/hcm-pack2.jpg" alt="Réalisation graphique HCM"/>
+                            <img src="assets/img/thc/hcm-pack2.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">HCM</h3>
@@ -175,20 +221,20 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item illustration">
-                    <a href="palm.php" target="_blank" title="allez à la page du projet Palmyre">
+                    <a href="project-pages/palm.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/palm1.jpg" alt="Réalisation graphique Palmyre"/>
+                            <img src="assets/img/thc/palm1.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Palmyre</h3>
                             <div class="work-descr">Illustration</div>
-                        </div>
-                    </a>
-                </li>
+                        </div
+                    </a
+                    ></li>
                 <li class="work-item packaging">
-                    <a href="isles-de-re.php" target="_blank" title="allez à la page du projet Isles-de-ré">
+                    <a href="project-pages/isles-de-re.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/th-proj5.jpg" alt="Réalisation graphique Cognac Isles-de-ré"/>
+                            <img src="assets/img/thc/th-proj5.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Cognac Isle de Ré</h3>
@@ -197,9 +243,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="kalae.php" target="_blank" title="allez à la page du projet Kalae">
+                    <a href="project-pages/kalae.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/th-proj8.jpg" alt="Réalisation graphique Kalae"/>
+                            <img src="assets/img/thc/th-proj8.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">KALAË</h3>
@@ -208,9 +254,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item logo">
-                    <a href="oeuvres-arbres.php" target="_blank" title="allez à la page du projet Oeuvres d'Arbres">
+                    <a href="project-pages/oeuvres-arbres.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/th-proj2.jpeg" alt="Réalisation graphique Oeuvres d'arbres"/>
+                            <img src="assets/img/thc/th-proj2.jpeg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Oeuvre d'arbres</h3>
@@ -219,9 +265,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item packaging">
-                    <a href="gardrat.php" target="_blank" title="allez à la page du projet Gardrat">
+                    <a href="project-pages/gardrat.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/th-proj7.jpg" alt="Réalisation graphique Domaine Gardrat"/>
+                            <img src="assets/img/thc/th-proj7.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Domaine Gardrat</h3>
@@ -230,9 +276,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="barber.php" target="_blank" title="allez à la page du projet Chez Jean Math">
+                    <a href="project-pages/barber.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/th-proj11.jpg" alt="Réalisation graphique Chez Jean Math"/>
+                            <img src="assets/img/thc/th-proj11.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Chez Jean Math</h3>
@@ -241,9 +287,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item flyer">
-                    <a href="hcm-bag.php" target="_blank" title="allez à la page du projet sac HCM">
+                    <a href="project-pages/hcm-bag.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/hcm2.jpg" alt="Réalisation graphique sac HCM"/>
+                            <img src="assets/img/thc/hcm2.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">HCM</h3>
@@ -252,9 +298,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item packaging">
-                    <a href="ocotopus-stout.php" target="_blank" title="allez à la page du projet Octopus Stout">
+                    <a href="project-pages/ocotopus-stout.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/th-proj10.jpg" alt="Réalisation graphique Octopous Stout"/>
+                            <img src="assets/img/thc/th-proj10.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Octopus Stout</h3>
@@ -263,9 +309,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="bb-snack.php" target="_blank" title="allez à la page du projet BB Snack">
+                    <a href="project-pages/bb-snack.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/bb1.jpg" alt="Réalisation graphique BB Snack"/>
+                            <img src="assets/img/thc/bb1.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">BB Snack</h3>
@@ -274,9 +320,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item logo">
-                    <a href="nordik.php" target="_blank" title="allez à la page du projet Nordik">
+                    <a href="project-pages/nordik.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/nord1.jpg" alt="Réalisation graphique Nordik"/>
+                            <img src="assets/img/thc/nord1.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Nordik</h3>
@@ -285,9 +331,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item flyer">
-                    <a href="hcm-sign.php" target="_blank" title="allez à la page du projet HCM">
+                    <a href="project-pages/hcm-sign.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/hcm-sign.jpg" alt="Réalisation graphique HCM"/>
+                            <img src="assets/img/thc/hcm-sign.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">HCM</h3>
@@ -296,9 +342,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item illustration">
-                    <a href="butterfly.php" target="_blank" title="allez à la page du projet HCM">
+                    <a href="project-pages/butterfly.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/but-fly.jpg" alt="Réalisation graphique HCM"/>
+                            <img src="assets/img/thc/but-fly.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">HCM</h3>
@@ -307,9 +353,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item logo">
-                    <a href="injenius.php" target="_blank" title="allez à la page du projet Injenius">
+                    <a href="project-pages/injenius.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/injenius1.jpg" alt="Réalisation graphique Injenius"/>
+                            <img src="assets/img/thc/injenius1.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Injenius</h3>
@@ -318,9 +364,9 @@ include ('_includes/navbar.html');
                     </a>
                 </li>
                 <li class="work-item idGraphique">
-                    <a href="etunia.php" target="_blank" title="allez à la page du projet Etunia">
+                    <a href="project-pages/etunia.php" target="_blank">
                         <div class="work-image">
-                            <img src="assets/img/thc/jard1.jpg" alt="Réalisation graphique Jardins d'Étunia"/>
+                            <img src="assets/img/thc/jard1.jpg" alt="Portfolio Item"/>
                         </div>
                         <div class="work-caption font-alt">
                             <h3 class="work-title">Jardins d'Étunia</h3>
@@ -332,53 +378,9 @@ include ('_includes/navbar.html');
         </div>
     </section>
     <!--  END OF PROJECTS  -->
-
-    <!--  SCOREBOARD  -->
-    <section class="module bg-dark-60" data-background="assets/img/thc/th-shop.jpeg" id="th-scoreboard">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <h2 class="module-title font-alt">Scoreboard</h2>
-                    <div class="module-subtitle font-serif"></div>
-                </div>
-            </div>
-            <div class="row multi-columns-row">
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <div class="count-item mb-sm-40">
-                        <div class="count-icon"><span class="icon-pencil"></span></div>
-                        <h3 class="count-to font-alt" data-countto="3426543"></h3>
-                        <h5 class="count-title font-serif">Points</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <div class="count-item mb-sm-40">
-                        <div class="count-icon"><span class="icon-camera"></span></div>
-                        <h3 class="count-to font-alt" data-countto="2784"></h3>
-                        <h5 class="count-title font-serif">Photos</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <div class="count-item mb-sm-40">
-                        <div class="count-icon"><span class="icon-happy"></span></div>
-                        <h3 class="count-to font-alt" data-countto="138"></h3>
-                        <h5 class="count-title font-serif">Clients heureux</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-lg-3">
-                    <div class="count-item mb-sm-40">
-                        <div class="count-icon"><span class="icon-map-pin"></span></div>
-                        <h3 class="count-to font-alt" data-countto="32"></h3>
-                        <h5 class="count-title font-serif">Villes</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  END OF SCOREBOARD  -->
-
-    <!--START CONTACT-->
-    <h2 class="module-title font-alt" style="margin-top: 10%; margin-bottom: -5%">Me Contacter</h2>
-    <section class="module" id="contact">
+    <!-- CONTACT -->
+    <h2 class="module-title font-alt" style="margin: 8% 0">Me Contacter</h2>
+    <section class="module" id="contact" style="padding-top:0">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -416,8 +418,9 @@ include ('_includes/navbar.html');
             </div>
         </div>
     </section>
-    <!--END OF CONTACT-->
+    <!-- END OF CONTACT -->
 
 <?php
-include ('_includes/footer.html');
+include '_includes/footer.html';
 ?>
+

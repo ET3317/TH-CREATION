@@ -970,9 +970,9 @@ blockquote {
   .work-details{
     padding-top:10%;
   }
-/*  .works-grid li:nth-child(3) {
+  #related-projects-grid li:nth-child(3) {
     display: none;
-  }*/
+  }
   .filter > li {
     display: flex;
     justify-content: center;
